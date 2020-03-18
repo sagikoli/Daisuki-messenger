@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "740930340309",
+    "firebase_url": "https://daisuki-messenger.firebaseio.com",
+    "project_id": "daisuki-messenger",
+    "storage_bucket": "daisuki-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740930340309:android:234f2c50aaf3ce7a",
+        "android_client_info": {
+          "package_name": "com.sagikoli.daisuki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740930340309-ekcmc1p9vmns2n3tg8h9ano4im4v3bsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sagikoli.daisuki",
+            "certificate_hash": "cdeb447bac0d4b36540c960fdfcf77276aabdbd1"
+          }
+        },
+        {
+          "client_id": "740930340309-6cr0ouo1hl2f5gklqt7a77e5evipq32u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUqJsBdAS7_rjr3ACvb-lLnbsYTup-F-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740930340309-6cr0ouo1hl2f5gklqt7a77e5evipq32u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

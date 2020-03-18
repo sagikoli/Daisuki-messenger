@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settingsActivity"
+    android:background="@color/colorAccent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_profile_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/profile"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_profile_image"
+        android:hint="username"
+        android:id="@+id/setting_username_edittext"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:background="@drawable/inputs"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="25dp"
+        android:inputType="textMultiLine"
+        android:drawableStart="@drawable/edit_profile"
+        android:padding="6dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_username_edittext"
+        android:hint="status"
+        android:id="@+id/setting_status_edittext"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:background="@drawable/inputs"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="25dp"
+        android:inputType="textMultiLine"
+        android:drawableStart="@drawable/edit"
+        android:padding="6dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_status_edittext"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="25dp"
+        android:text="save"
+        android:id="@+id/setting_save_button"
+        android:textSize="20sp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@android:color/background_light"
+        />
+
+</RelativeLayout>

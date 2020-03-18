@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/find_friends_item"
+        app:showAsAction="never"
+        android:title="Find friends"
+       />
+    <item
+        android:id="@+id/create_group_item"
+        app:showAsAction="never"
+        android:title="create group"
+        />
+    <item
+        android:title="Settings"
+        app:showAsAction="never"
+        android:id="@+id/setting_item"/>
+    <item
+        android:title="logout"
+        android:id="@+id/logout_item"
+        app:showAsAction="never"
+        />
+</menu>
